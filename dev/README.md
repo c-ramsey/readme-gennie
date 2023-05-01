@@ -1,9 +1,13 @@
-# x
+# homework
+
+  
+  ![MIT License license badge](https://img.shields.io/badge/license-MIT License-green)
+  
 
   ## Description 
-  x
+  some dumbassery i don't understand
 
-  ##Table of Contents 
+  ## Table of Contents 
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
@@ -11,21 +15,25 @@
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ##Installation
-  x
+  ## Installation
+  go to github and download it 
 
   ## Usage
-  x
+  click the thing 
 
-  ## License
-  GNU AGPLv3
+  
+  ## License 
+  This application is covered under the 
+  [MIT License](link)
+   license.  
+  
 
   ## Contributing
-  x
+  email me 
 
   ## Tests 
-  x
+  do the thing 
 
   ## Questions
-  My Github profile: [x](https://github.com/x)
-  Please email me with any questions, comments, or concerns at x.
+  My Github profile: [chris ramsey](https://github.com/c-ramsey)
+  Please email me with any questions, comments, or concerns at cpramsey112@gmail.com.
