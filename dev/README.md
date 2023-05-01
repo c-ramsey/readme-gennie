@@ -1,11 +1,11 @@
-# homework
+# Homework
 
   
-  ![MIT License license badge](https://img.shields.io/badge/license-MIT License-green)
+  ![MIT License license badge](https://img.shields.io/badge/license-MIT%20License-green)
   
 
   ## Description 
-  some dumbassery i don't understand
+  Create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer packageLinks to an external site.. Review the Professional README GuideLinks to an external site. as a reminder of everything that a high-quality, professional README should contain.
 
   ## Table of Contents 
   - [Installation](#installation)
@@ -16,24 +16,22 @@
   - [Questions](#questions)
 
   ## Installation
-  go to github and download it 
+  navigate to github and download the relevant files and dependencies. 
 
   ## Usage
-  click the thing 
+  run node index from the command line. 
 
   
   ## License 
-  This application is covered under the 
-  [MIT License](link)
-   license.  
+  this application is covered under the following license: [MIT License](https://choosealicense.com/licenses/mit/) 
   
 
   ## Contributing
-  email me 
+  hit me up 
 
   ## Tests 
-  do the thing 
+  
 
   ## Questions
-  My Github profile: [chris ramsey](https://github.com/c-ramsey)
+  My Github profile: [chrisramsey](https://github.com/c-ramsey)
   Please email me with any questions, comments, or concerns at cpramsey112@gmail.com.

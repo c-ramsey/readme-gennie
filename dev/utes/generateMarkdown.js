@@ -4,8 +4,9 @@ function renderLicenseBadge(license) {
   if (!license) {
     return '';
   }
+  const badgeUrl = String(license).split(" ").join("%20");
   return `
-  ![${license} license badge](https://img.shields.io/badge/license-${license}-green)
+  ![${license} license badge](https://img.shields.io/badge/license-${badgeUrl}-green)
   `
 }
 
@@ -15,9 +16,22 @@ function renderLicenseLink(license) {
   if (!license) {
     return '';
   }
-  return `
-  [${license}](link)
-  `
+  if (license == 'GNU AGPLv3') {
+    return `[${license}](https://choosealicense.com/licenses/agpl-3.0/)`}
+  if (license == 'GNU GPLv3') {
+    return `[${license}](https://choosealicense.com/licenses/gpl-3.0/)`}
+  if (license == 'GNU LGPLv3') {
+    return `[${license}](https://choosealicense.com/licenses/lgpl-3.0/)`}
+  if (license == 'Mozilla Public License 2.0') {
+    return `[${license}](https://choosealicense.com/licenses/mpl-2.0/)`}
+  if (license == 'Apache License 2.0') {
+    return `[${license}](https://choosealicense.com/licenses/apache-2.0/)`}
+  if (license == 'MIT License') {
+    return `[${license}](https://choosealicense.com/licenses/mit/)`}
+  if (license == 'Boost Software License 1.0') {
+    return `[${license}](https://choosealicense.com/licenses/bsl-1.0/)`}
+  if (license == 'The Unlicense') {
+    return `[${license}](https://choosealicense.com/licenses/unlicense/)`}
 }
 
 // TODO: Create a function that returns the license section of README
@@ -28,7 +42,7 @@ function renderLicenseSection(license) {
   }
   return `
   ## License 
-  This application is covered under the ${renderLicenseLink(license)} license.  
+  This application is covered under the following license: ${renderLicenseLink(license)} 
   `
 }
 
